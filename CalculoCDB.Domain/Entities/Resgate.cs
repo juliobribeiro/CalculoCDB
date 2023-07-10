@@ -57,7 +57,12 @@
             {
                 resultado.ValorLiquido = resultado.ValorBruto * (1 - AcimaVINTEeQUATRO);
             }
-                      
+
+            //Fiz este calculo para pegar o resultado do rendimento e somar com valor do investimento inicial
+
+            resultado.ValorBruto += rendimento.Valor;
+            resultado.ValorLiquido += rendimento.Valor;
+
             return resultado;
         }
         

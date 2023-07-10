@@ -45,8 +45,8 @@ namespace CalculoCDB.Application.Teste
         {
             var service = new CalculoCDBApplicationService();
 
-            var valorBruto = 9.8626381615899845;
-            var valorLiquido = 7.6435445752322382;
+            var valorBruto = 259.86263816159;
+            var valorLiquido = 257.64354457523223;
 
             var rendimentoDTO = new RendimentoDTO()
             {
